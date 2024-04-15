@@ -1,0 +1,33 @@
+@import "blink.css";
+
+:root {
+  font-family: "Comic Sans MS", sans-serif;
+  line-height: 1.4;
+  font-weight: 400;
+
+  color: white;
+  background: url("https://i.imgur.com/SHZe50s.gif") fixed;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+table {
+  margin: 0 auto;
+}
+
+.rainbow {
+  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+  -webkit-background-clip: text;
+  color: transparent;
+}
